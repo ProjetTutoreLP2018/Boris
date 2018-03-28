@@ -1,0 +1,15 @@
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.exe.config
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.exe
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.pdb
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.csprojResolveAssemblyReference.cache
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.exe
+c:\users\afzaalahmad\documents\visual studio 2013\Projects\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.pdb
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.exe.config
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.exe
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\bin\Debug\SqlTest CSharp.pdb
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.exe
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\obj\Debug\SqlTest CSharp.pdb
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\bin\Debug\MySql.Data.dll
+C:\Users\Boris\source\repos\SqlTest CSharp\SqlTest CSharp\bin\Debug\MySql.Data.xml
