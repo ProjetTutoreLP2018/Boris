@@ -1,0 +1,11 @@
+C:\Users\Boris\source\repos\MailSender\MailSender\bin\Debug\MailSender.exe.config
+C:\Users\Boris\source\repos\MailSender\MailSender\bin\Debug\MailSender.exe
+C:\Users\Boris\source\repos\MailSender\MailSender\bin\Debug\MailSender.pdb
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.csprojResolveAssemblyReference.cache
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.Form1.resources
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.Properties.Resources.resources
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.csproj.GenerateResource.Cache
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.csproj.CoreCompileInputs.cache
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.exe
+C:\Users\Boris\source\repos\MailSender\MailSender\obj\Debug\MailSender.pdb
+C:\Users\Boris\source\repos\MailSender\MailSender\bin\Debug\EASendMail45.dll

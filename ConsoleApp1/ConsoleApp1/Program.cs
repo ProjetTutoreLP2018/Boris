@@ -9,22 +9,65 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            /*try
-            {*/
             SmtpMail oMail = new SmtpMail("TryIt");
             SmtpClient oSmtp = new SmtpClient();
 
             // Your gmail email address
-            oMail.From = "sender";
+            Console.Write("Your mail : ");
+            string from = Console.ReadLine();
+            oMail.From = from;
+
+            //Password du type
+            Console.Write("Password : ");
+            string pass = "";
+            // Backspace Should Not Work
+            ConsoleKeyInfo key;
+            do
+            {
+                key = Console.ReadKey(true);
+
+                // Backspace Should Not Work
+                if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                {
+                    pass += key.KeyChar;
+                    Console.Write("*");
+                }
+                else
+                {
+                    if (key.Key == ConsoleKey.Backspace && pass.Length > 0)
+                    {
+                        pass = pass.Substring(0, (pass.Length - 1));
+                        Console.Write("\b \b");
+                    }
+                }
+            }
+            // Stops Receving Keys Once Enter is Pressed
+            while (key.Key != ConsoleKey.Enter);
+            Console.WriteLine("");
 
             // Set recipient email address
-            oMail.To = "receveur@gmail.com";
+            Console.Write("To : ");
+            string to = Console.ReadLine();
+            oMail.To = to;
 
             // Set email subject
-            oMail.Subject = "test email from gmail account";
+            Console.Write("Titre : ");
+            string title = Console.ReadLine();
+            oMail.Subject = title;
 
             // Set email body
-            oMail.TextBody = "this is a test email sent from c# project with gmail.";
+            Console.Write("Contenu : ");
+            string content = Console.ReadLine();
+            oMail.TextBody = content;
+
+            //Test PJ
+            Console.Write("Chemin de la pièce jointe : ");
+            string pj = Console.ReadLine();
+            pj = pj.Substring(1,pj.Length-2);
+            if (!pj.Equals(""))
+                oMail.AddAttachment(pj);
+
+
             // Gmail SMTP server address
             SmtpServer oServer = new SmtpServer("smtp.gmail.com");
 
@@ -36,8 +79,8 @@ namespace ConsoleApp1
 
             // Gmail user authentication
             // For example: your email is "gmailid@gmail.com", then the user should be the same
-            oServer.User = "mailSender";
-            oServer.Password = "pass";
+            oServer.User = from;
+            oServer.Password = pass;
             Console.WriteLine("start to send email over SSL ...");
             oSmtp.SendMail(oServer, oMail);
             Console.WriteLine("email was sent successfully!");
@@ -50,16 +93,8 @@ namespace ConsoleApp1
                 Console.WriteLine("failed to send email with the following error:");
                 Console.WriteLine(ep.Message);
             }
-            //MessageBox.Show("mail Send");
-            Console.WriteLine("mail send");
-                System.Threading.Thread.Sleep(10000);
-            /*}
-            catch (Exception ex)
-            {
-                //MessageBox.Show(ex.ToString());
-                Console.WriteLine(ex.ToString());
-                System.Threading.Thread.Sleep(10000);
-            }*/
+            Console.Write("Appuyez sur Entrée pour terminer");
+            Console.ReadLine();
         }
     }
 }
